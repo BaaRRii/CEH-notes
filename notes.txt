@@ -1,0 +1,59 @@
+Standards and Methodologies
+
+- MITRE ATT&CK
+- OWASP Web Security Testing Guide
+- NIST SP 800-115
+- Open Source Security Testing Methodology Manual
+- Penetration Testing Execution Standard
+- Information Systems Security Assessment Framework
+
+The following are some key concepts you must address and understand in the planning and preparation phase:
+
+- The target audience
+- The rules of engagement
+- The communication escalation path and communication channels
+- The available resources and requirements
+- The overall budget for the engagement
+- Any specific disclaimers
+- Any technical constraints
+- The resources available to you as a penetration tester
+
+Regulations that may apply:
+- PCI DSS: Payment Card Industry
+- HIPAA: Health Insurance Portability and Accountability Act
+- FedRAMP: Federal Risk and Authorization Management Program
+
+Key Technical Elements in Regulations
+- Data Isolation
+- Password Management
+- Key Management
+
+Service-level agreement (SLA)
+An SLA is a well-documented expectation or constraint related to one or more of the minimum and/or maximum performance measures (such as quality, timeline/timeframe, and cost) of the penetration testing service. You should become familiar with any SLAs that the organization that hired you has provided to its customers.
+
+Statement of work (SOW)
+An SOW is a document that specifies the activities to be performed during a penetration testing engagement. It can be used to define some of the following elements:
+- Project (penetration testing) timelines, including the report delivery schedule
+- The scope of the work to be performed
+- The location of the work (geographic location or network location)
+- Special technical and nontechnical requirements
+- Payment schedule
+- Miscellaneous items that may not be part of the main negotiation but that need to be listed and tracked because they could pose problems during the overall engagement
+
+The rules of engagement document specifies the conditions under which the security penetration testing engagement will be conducted. You need to document and agree upon these rule of engagement conditions with the client or an appropriate stakeholder. Table 2-3 lists a few examples of the elements that are typically included in a rules of engagement document.
+
+SOAP
+Simple Object Access Protocol (SOAP) project files: SOAP is an API standard that relies on XML and related schemas. XML-based specifications are governed by XML Schema Definition (XSD) documents. Having a good reference of what a specific API supports can be very beneficial for a penetration tester and will accelerate the testing. The SOAP specification can be accessed at https://www.w3.org/TR/soap.
+
+Swagger
+Swagger (OpenAPI) documentation is a modern framework of API documentation and development that is now the basis of the OpenAPI Specification (OAS). These documents are used in representational state transfer (REST) APIs. REST is a software architectural style designed to guide development of the architecture for web services (including APIs). REST, or “RESTful,” APIs are the most common types of APIs used today. Swagger documents can be extremely beneficial when testing APIs. Additional information about Swagger can be obtained at https://swagger.io. The OAS is available at https://github.com/OAI/OpenAPI-Specification.
+
+WSDL
+Web Services Description Language (WSDL) is an XML-based language that is used to document the functionality of a web service. The WSDL specification can be accessed at https://www.w3.org/TR/wsdl20-primer.
+
+GraphQL
+GraphQL is a query language for APIs. It is also a server-side runtime for executing queries using a type system you define for your data. Additional technical information about GraphQL can be accessed at https://graphql.org/learn.
+
+WADL
+Web Application Description Language (WADL) is an XML-based language for describing web applications. The WADL specification can be obtained from https://www.w3.org/Submission/wadl.
+
