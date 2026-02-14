@@ -1,0 +1,40 @@
+Active reconnaissance is a method of information gathering in which the tools used actually send out probes to the target network or systems in order to elicit responses that are then used to determine the posture of the network or system. These probes can use various protocols and multiple levels of aggressiveness, typically based on what is being scanned and when. For example, you might be scanning a device such as a printer that does not have a very robust TCP/IP stack or network hardware. By sending active probes, you might crash such a device. Most modern devices do not have this problem; however, it is possible, so when doing active scanning, you should be conscious of this and adjust your scanner settings accordingly.
+
+Passive reconnaissance is a method of information gathering in which the tools do not interact directly with the target device or network. There are multiple methods of passive reconnaissance. Some involve using third-party databases to gather information. Others also use tools in such a way that they will not be detected by the target. These tools, in particular, work by simply listening to the traffic on the network and using intelligence to deduce information about the device communication on the network. This approach is much less invasive on a network, and it is highly unlikely for this type of reconnaissance to crash a system such as a printer. Because it does not produce any traffic, it is also unlikely to be detected and does not raise any flags on the network that it is surveying. Another scenario in which a passive scanner would come in handy would be for a penetration tester who needs to perform analysis on a production network that cannot be disrupted. The passive reconnaissance technique that you use depends on the type of information that you wish to obtain. One of the most important aspects of learning about penetration testing is developing a good methodology that will help you select the appropriate tools and technologies to use during the engagement.
+
+Common active reconnaissance tools and methods include the following:
+
+- Host enumeration
+- Network enumeration
+- User enumeration
+- Group enumeration
+- Network share enumeration
+- Web page enumeration
+- Application enumeration
+- Service enumeration
+- Packet crafting
+
+Common passive reconnaissance tools and methods include the following:
+- Domain enumeration
+- Packet inspection
+- Open-source intelligence (OSINT)
+- Recon-ng
+- Eavesdropping
+
+Tools:
+- recon-ng
+- spiderfoot
+- dnsrecon
+- whois
+- nslookup
+
+Cryptographic flaws
+- During the reconnaissance phase, attackers often can inspect Secure Sockets Layer (SSL) certificates to obtain information about the organization, potential cryptographic flaws, and weak implementations. You can find a lot inside digital certificates: the certificate serial number, the subject common name, the uniform resource identifier (URI) of the server it was assigned to, the organization name, Online Certificate Status Protocol (OCSP) information, the certificate revocation list (CRL) URI, and so on.
+- Tools such as crt.sh enable you to obtain detailed certificate transparency information about any given domain. Figure 3-2 shows the result of the query https://crt.sh/?q=h4cker.org in crt.sh for the domain h4cker.org. You can see in the search results multiple subdomains that were not known to the attacker before.
+
+Tools:
+- sslscan Queries SSL services to determine what cyphers are supported
+- ssldump Analyze and decode SSL traffic
+- sslh Running multiple services on port 443
+- sslsplit Enable MitM attacks on SSL encrypted network connections
+- sslyze Analyze the SSL configuration of a server by connecting to it
