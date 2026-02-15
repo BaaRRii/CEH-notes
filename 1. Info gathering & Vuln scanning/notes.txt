@@ -21,6 +21,8 @@ Common passive reconnaissance tools and methods include the following:
 - Recon-ng
 - Eavesdropping
 
+PASSIVE
+
 Tools:
 - recon-ng
 - spiderfoot
@@ -38,3 +40,81 @@ Tools:
 - sslh Running multiple services on port 443
 - sslsplit Enable MitM attacks on SSL encrypted network connections
 - sslyze Analyze the SSL configuration of a server by connecting to it
+
+Password dumps
+
+Tools:
+- h8mail
+- WhatBreach: https://github.com/Ekultek/WhatBreach
+- LeakLooker: https://github.com/woj-ciech/LeakLooker
+- Buster: https://github.com/sham00n/buster
+- Scavenger: https://github.com/rndinfosecguy/Scavenger
+- PwnDB: https://github.com/davidtavarez/pwndb
+
+File Metadata
+
+Tools:
+- ExifTool
+
+Google Dorks:
+
+Tools:
+- http://exploit-db.com/google-hacking-database
+
+Email breaches
+
+Tools:
+- haveibeenpwned.com
+- f-secure.com
+- hacknotice.com
+- breachdirectory.com
+- keepersecurity.com
+
+Emails of a domain
+
+Tools:
+- emailharvester
+- spiderfoot
+
+Shodan has a CLI implementation
+
+ACTIVE
+
+Nmap Port Status Reported	Response from Target	Nmap Analysis
+Open	TCP SYN-ACK	The service is listening on the port.
+Closed	TCP RST	The service is not listening on the port.
+Filtered	No response from target or ICMP destination unreachable	The port is firewalled.
+
+Nmap scan types
+- TCP Connect Scan (-sT)
+- UDP Scan (-sU)
+- TCP FIN Scan (-sF)
+- Host Discovery Scan (-sn)
+
+Timing options
+- T0 (Paranoid) : Very slow, used for IDS evasion
+- T1 (Sneaky) : Quite slow, used for IDS evasion
+- T2 (Polite) : Slows down to consume less bandwidth, runs about 10 times slower than the default
+- T3 (Normal) : Default, a dynamic timing model based on target responsiveness
+- T4 (Aggressive) : Assumes a fast and reliable network and may overwhelm targets
+- T5 (Insane) : Very aggressive; will likely overwhelm targets or miss open ports
+
+Types of enumeration
+- Host Enumeration
+- User Enumeration
+- Group Enumeration
+- Network Share Enumeration
+- Additional SMB Enumeration Examples
+- Web Page Enumeration/Web Application Enumeration
+- Service Enumeration
+- Exploring Enumeration via Packet Crafting
+
+Scapy can also be used to enumerate via Packet Crafting
+
+Packet Inspection and Eavesdropping
+
+Tools:
+- wireshark
+- tcpdump
+- tshark
+
