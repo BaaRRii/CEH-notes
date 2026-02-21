@@ -118,3 +118,40 @@ Tools:
 - tcpdump
 - tshark
 
+How a Typical Automated Vulnerability Scanner Works
+- Step 1. In the discovery phase, the scanner uses a tool such as Nmap to perform host and port enumeration. Using the results of the host and port enumeration, the scanner begins to probe open ports for more information.
+- Step 2. When the scanner has enough information about the open port to determine what software and version are running on that port, it records that information in a database for further analysis. The scanner can use various methods to make this determination, including using banner information.
+- Step 3. The scanner tries to determine if the software that is listening on the target system is susceptible to any known vulnerabilities. It does this by correlating a database of known vulnerabilities against the information recorded in the database about the target services.
+- Step 4. The scanner produces a report on what it suspects could be vulnerable. Keep in mind that these results are often false positives and need to be validated. At the very least, this type of tool gives you an idea of where to look for vulnerabilities that might be exploitable.
+
+Types of Vulnerability Scans
+- Unauthenticated Scans
+- Authenticated Scans
+- Discovery Scans
+- Full Scans
+- Stealth Scans
+- Compliance Scans
+
+sudo nmap -sV --script vulners --script-args mincvss=4.0 10.6.6.23
+sudo gvm-start
+sudo gvm-check-setup
+
+Helpful sources for further investigation of vulnerabilities
+- US-Cert
+- NIST
+- JPCERT
+- CAPEC
+- CAPEC
+- CVE
+- CWE 
+- CVSS
+
+How to prioritize findings:
+- What is the severity of the vulnerability?
+- How many systems does the vulnerability apply to?
+- How was the vulnerability detected?
+- Was the vulnerability found with an automated scanner or manually?
+- What is the value of the device on which the vulnerability was found?
+- Is this device critical to your business or infrastructure?
+- What is the attack vector, and does it apply to your environment?
+- Is there a possible workaround or mitigation available?
