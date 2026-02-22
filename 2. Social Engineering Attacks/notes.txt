@@ -1,0 +1,46 @@
+Email Phishing
+- Spear phishing is a phishing attempt that is constructed in a very specific way and directly targeted to specific groups of individuals or companies.
+- Whaling, which is similar to phishing and spear phishing, is an attack targeted at high-profile business executives and key individuals in a company.
+
+Vishing
+- Vishing (which is short for voice phishing) is a social engineering attack carried out in a phone conversation. The attacker persuades the user to reveal private personal and financial information or information about another person or a company.
+
+Smishing
+- Phising via SMS 
+
+USB Drop Key
+- This type of attack involves just leaving USBs unattended or placing them in strategic locations. Oftentimes, users think that the devices are lost and insert them into their systems to figure out whom to return the devices to; before they know it, they are downloading and installing malware
+
+Watering Hole Attacks
+- A watering hole attack is a targeted attack that occurs when an attacker profiles websites that the intended victim accesses. The attacker then scans those websites for possible vulnerabilities. If the attacker locates a website that can be compromised, the website is then injected with a JavaScript or other similar code injection that is designed to redirect the user when the user returns to that site. (This redirection is also known as a pivot attack.) The user is then redirected to a site with some sort of exploit code. The purpose is to infect computers in the organization’s network, thereby allowing the attacker to gain a foothold in the network for espionage or other reasons.
+
+
+Physical Attacks
+
+Tailgaiting
+- With piggybacking, an unauthorized person tags along with an authorized person to gain entry to a restricted area – usually with the person’s consent. Tailgating is essentially the same but with one difference: It usually occurs without the authorized person’s consent. Both piggybacking and tailgating can be defeated through the use of access control vestibules (formerly known as mantraps). An access control vestibule is a small space that can usually fit only one person. It has two sets of closely spaced doors; the first set must be closed before the other will open, creating a sort of waiting room where people are identified (and cannot escape). Access control vestibules are often used in server rooms and data centers. Multifactor authentication is often used in conjunction with an access control vestibule; for example, a proximity card and PIN may be required at the first door and a biometric scan at the second.
+
+Dumpster Diving
+- Dumpster diving, a person scavenges for private information in garbage and recycling containers
+
+Shoulder Surfing
+- With shoulder surfing, someone obtains information such as personally identifiable information (PII), passwords, and other confidential data by looking over a victim’s shoulder
+
+Badge Cloning
+- An attacker can clone a badge/card used to access a building
+
+Tools:
+- Social-Engineer Toolkit (SET)
+- Browser Exploitation Framework (BeEF)
+
+Call Spoofing Tools:
+- SpoofApp: This is an Apple iOS and Android app that can be used to easily spoof a phone number.
+- SpoofCard: This is an Apple iOS and Android app that can spoof a number and change your voice, record calls, generate different background noises, and send calls straight to voicemail.
+- Asterisk: Asterisk is a legitimate voice over IP (VoIP) management tool that can also be used to impersonate caller ID.
+
+Methods of influence:
+- Authority
+- Scarcity and Urgency
+- Social Proof
+- Likeness
+- Fear
