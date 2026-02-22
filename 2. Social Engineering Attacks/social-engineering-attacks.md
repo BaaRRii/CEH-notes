@@ -24,12 +24,12 @@ Social engineering exploits **human psychology** rather than technical vulnerabi
             |                 |                 |
         DIGITAL           VOICE/SMS         PHYSICAL
             |                 |                 |
-     +------+------+     +---+---+      +------+------+
-     |      |      |     |       |      |      |      |
-  Phishing  Water  USB  Vishing Smish  Tailg  Dumpst  Shoulder
-  Spear ph  Hole   Drop                ating  Diving  Surfing
-  Whaling   Attack Key                 Badge
-                                       Cloning
+     +------+------+      +---+---+      +------+------+
+     |      |      |      |       |      |      |      |
+  Phishing  Water  USB   Vishing Smish  Tailg  Dumpst  Shoulder
+  Spear ph  Hole   Drop                 ating  Diving  Surfing
+  Whaling   Attack Key                  Badge
+                                        Cloning
 ```
 
 ---
